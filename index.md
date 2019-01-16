@@ -1,1 +1,4 @@
-Coming soon...
+---
+layout: home
+author_profile: false
+---
