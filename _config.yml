@@ -1,1 +1,7 @@
-remote_theme: "mmistakes/minimal-mistakes@4.14.2"
+url: http://surrealitylabs.com
+name: Surreality Labs
+title: Surreality Labs
+description: ""
+
+plugins:
+  - jekyll-include-cache
