@@ -23,11 +23,11 @@ It's true that screensavers and display sleep can be disabled by other methods t
 The Mouse Mover uses the USB Wildcard hardware, as mentioned before. It doesn't need any additional hardware beyond that. Check out <a href="https://github.com/SurrealityLabs/USBWildcard" target="_blank">that project's GitHub for the schematic and PCB.</a>
 
 <h2>Software</h2>
-The software is written in the Arduino environment. The ATmega16U2 used in the USB Wildcard isn't supported natively by Arduino, so we need to make some changes. First off, you need to be using Arduino 1.6.0, which is in pre-release right now. You need to download the 3rd party support library that we worked on <a href="https://github.com/SurrealityLabs/minimus-arduino" target="_blank">from GitHub.</a> Download it, and do the following:<ol>
-	<li>Find your Sketchbook directory. On a Mac and Linux, it'll be the Arduino directory in your home directory. On Windows, it'll be the Arduino directory in your Documents folder.</li>
-	<li>Create a directory named "hardware" in the sketchbook directory.</li>
-	<li>Extract the ZIP file from GitHub into a directory called "minimus" in that hardware directory.</li>
-</ol>
+The software is written in the Arduino environment. The ATmega16U2 used in the USB Wildcard isn't supported natively by Arduino, so we need to make some changes. First off, you need to be using Arduino 1.6.0, which is in pre-release right now. You need to download the 3rd party support library that we worked on <a href="https://github.com/SurrealityLabs/minimus-arduino" target="_blank">from GitHub.</a> Download it, and do the following:
+
+1. Find your Sketchbook directory. On a Mac and Linux, it'll be the Arduino directory in your home directory. On Windows, it'll be the Arduino directory in your Documents folder.
+2. Create a directory named "hardware" in the sketchbook directory.
+3. Extract the ZIP file from GitHub into a directory called "minimus" in that hardware directory.
 
 The Arduino code is based on <a href="https://github.com/pbrook/minimus-arduino" target="_blank">another GitHub project</a> made to bring Arduino support to the Minimus32 board. We modified it to work with the latest Arduino release and to add support for the ATmega16U2.
 
