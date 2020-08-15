@@ -9,6 +9,26 @@ categories:
   - Project Updates
 tags:
   - ChristmasOrnament2013
+gallery0:
+  - url: /assets/images/posts/xmas2013/photos/11230475365.jpg
+    image_path: /assets/images/posts/xmas2013/thumbnails/11230475365.jpg
+    alt: Candy Cane PCB
+    title: Candy Cane PCB
+gallery1:
+  - url: /assets/images/posts/xmas2013/photos/11215550525.jpg
+    image_path: /assets/images/posts/xmas2013/thumbnails/11215550525.jpg
+    alt: Christmas Tree PCB
+    title: Christmas Tree PCB
+gallery2:
+  - url: /assets/images/posts/xmas2013/photos/11231323315.jpg
+    image_path: /assets/images/posts/xmas2013/thumbnails/11231323315.jpg
+    alt: Snowman PCB
+    title: Snowman PCB
+gallery3:
+  - url: /assets/images/posts/xmas2013/photos/11229730296.jpg
+    image_path: /assets/images/posts/xmas2013/thumbnails/11229730296.jpg
+    alt: Snowflake PCB
+    title: Snowflake PCB
 ---
 Two years ago, I made a snowman circuit board. It was a fairly simple board - white with black silkscreen artwork, and a bunch of LEDs for the scarf and buttons on the snowman. A small PIC microcontroller handled blinking the LEDs in various patterns, and a button allowed the user to switch between patterns, as well as turn the unit off. Power came from a small watch battery. I made 100 of them, and they were a huge hit.
 
@@ -17,74 +37,74 @@ I've shown these at various Maker Faires over the two years since, and one quest
 In this post, I'll go over each of the boards quickly. Future posts will cover how the hardware and firmware works, how to assemble them, and how to modify the firmware to change the blinking patterns.
 
 <h2>Candy cane board</h2>
-<a href="http://www.flickr.com/photos/61091961@N06/11230475365/" title="IMG_6115.JPG" rel="lightbox"><img src="http://farm6.staticflickr.com/5477/11230475365_5f813a55d4_n.jpg" width="320" height="240" alt="IMG_6115.JPG" title="IMG_6115.JPG" class="aligncenter"></a>
+{% include gallery id="gallery0" %}
 The candycane board has 16 LEDs, alternating 8 red and 8 white in my construction. This can be changed when the user builds it on their own, of course. The board is made with a red solder mask and white silkscreen. It has seven patterns and an off state, which you can rotate through using the button on the right-hand side of the board. The patterns are:
-<ul>
-	<li>Off</li>
-	<li>All lights on</li>
-	<li>All lights blinking</li>
-	<li>Alternating red and white</li>
-	<li>Fill in from the short end of the candy cane</li>
-	<li>Marquee</li>
-	<li>Twinkling</li>
-	<li>Fill in from the long end of the candy cane</li>
 
-</ul>
+- Off
+- All lights on
+- All lights blinking
+- Alternating red and white
+- Fill in from the short end of the candy cane
+- Marquee
+- Twinkling
+- Fill in from the long end of the candy cane
+
+
 Here's a video showing all of the patterns, in order:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/yOKoYn_ZZcQ" frameborder="0" allowfullscreen></iframe>
+{% include video id="yOKoYn_ZZcQ" provider="youtube" %}
 
 <h2>Christmas tree board</h2>
-<a href="http://www.flickr.com/photos/61091961@N06/11215550525/" title="IMG_6008.JPG" rel="lightbox"><img src="http://farm8.staticflickr.com/7307/11215550525_e65a27d5e5_n.jpg" width="320" height="240" alt="IMG_6008.JPG" title="IMG_6008.JPG" class="aligncenter"></a>
+{% include gallery id="gallery1" %}
 The Christmas Tree board has 17 LEDs, with a yellow star at the top and whatever arrangement the user wants for the lights in the tree. The board has standard green solder mask and white silkscreen. The patterns are:
-<ul>
-	<li>Off</li>
-	<li>All lights on</li>
-	<li>All lights blinking</li>
-	<li>Marquee</li>
-	<li>Fill in from the right</li>
-	<li>Fill in from the bottom</li>
-	<li>Twinkle all lights</li>
-	<li>Twinkle all lights, except the star, which is always on</li>
-</ul>
+
+- Off
+- All lights on
+- All lights blinking
+- Marquee
+- Fill in from the right
+- Fill in from the bottom
+- Twinkle all lights
+- Twinkle all lights, except the star, which is always on
+
 All of these are shown in the following video:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/aqPifEERlBg" frameborder="0" allowfullscreen></iframe>
+{% include video id="aqPifEERlBg" provider="youtube" %}
 
 <h2>Snowman board</h2>
-<a href="http://www.flickr.com/photos/61091961@N06/11231323315/" title="IMG_6163.JPG" rel="lightbox"><img src="http://farm8.staticflickr.com/7349/11231323315_fa7ef0a283_n.jpg" width="320" height="240" alt="IMG_6163.JPG" title="IMG_6163.JPG" class="aligncenter"></a>
+{% include gallery id="gallery2" %}
 The snowman consists of 10 LEDs: one red nose, three white buttons, and six LEDs along the scarf. The board has a white solder mask and black silkscreen. The patterns are:
-<ul>
-	<li>Off</li>
-	<li>All lights on</li>
-	<li>All lights blinking</li>
-	<li>Nose on, all others marquee</li>
-	<li>Nose and buttons on, scarf marquee</li>
-	<li>Twinkle all lights</li>
-	<li>Nose and buttons on, scarf twinkling</li>
-	<li>Nose and buttons on, scarf fills in from the right</li>
-</ul>
+
+- Off
+- All lights on
+- All lights blinking
+- Nose on, all others marquee
+- Nose and buttons on, scarf marquee
+- Twinkle all lights
+- Nose and buttons on, scarf twinkling
+- Nose and buttons on, scarf fills in from the right
+
 All of the patterns are shown in this video:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/ES48Rtny06Y" frameborder="0" allowfullscreen></iframe>
+{% include video id="ES48Rtny06Y" provider="youtube" %}
 
 <h2>Snowflake board</h2>
-<a href="http://www.flickr.com/photos/61091961@N06/11229730296/" title="IMG_6059.JPG" rel="lightbox"><img src="http://farm4.staticflickr.com/3831/11229730296_bf38dab21d_n.jpg" width="320" height="240" alt="IMG_6059.JPG" title="IMG_6059.JPG" class="aligncenter"></a>
+{% include gallery id="gallery3" %}
 The snowflake is my favourite. It has 19 LEDs total, blue and white alternating along six spokes of a snowflake. It's on a board with blue solder mask and white silkscreen. It has the following patterns:
-<ul>
-	<li>Off</li>
-	<li>All lights on</li>
-	<li>All lights blinking</li>
-	<li>Alternating blink</li>
-	<li>Starburst (fill in from centre)</li>
-	<li>Spiral fill</li>
-	<li>Pinwheel (basically a rotating line)</li>
-	<li>Twinkle</li>
-</ul>
+
+- Off
+- All lights on
+- All lights blinking
+- Alternating blink
+- Starburst (fill in from centre)
+- Spiral fill
+- Pinwheel (basically a rotating line)
+- Twinkle
+
 
 All of these are shown in this video:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/GVwZ2Ub6quk" frameborder="0" allowfullscreen></iframe>
+{% include video id="GVwZ2Ub6quk" provider="youtube" %}
 
 <h2>What's next</h2>
 The boards have turned out very well. I'm still waiting on a few parts to arrive, so unfortunately I'm not going to be selling many this year. However, with a few tweaks I should have them ready well before Christmas next year.
