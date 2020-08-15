@@ -15,7 +15,7 @@ tags:
 ---
 The weekend before last in Ottawa (August 16-17, 2014) was the fourth annual Ottawa Mini Maker Faire. Mike, Chris and I exhibited the pinball machine - more on that in a trip report later. For this Faire, however, I worked with the organizers on making some special LED name badges for the Makers. This article serves as documentation of that project.
 
-<h1>Timeline</h1>
+<h2>Timeline</h2>
 Britta Evans-Fenton, one of the Faire’s organizers, came out to Mini Maker Faire Montreal (June 7-8, 2014 - again, trip report pending), so I got to talk to her there about this year’s Ottawa Faire. On the train trip back home to Toronto, I got the idea of having some sort of PCB name tag for the participants. I toyed with the concept for a while, and eventually came up with an idea, which I sent to Britta. This was June 18, at this point.
 
 <a href="http://www.flickr.com/photos/61091961@N06/14789028018/" title="Maker Faire Badge Concept" rel="lightbox"><img src="http://farm4.staticflickr.com/3908/14789028018_e066931c8f_m.jpg" width="180" height="240" alt="Maker Faire Badge Concept" title="Maker Faire Badge Concept" class="aligncenter"></a>
@@ -28,17 +28,18 @@ On July 15, I did some 3D renders, and send off for prototypes, in two sizes - a
 
 <a href="http://www.flickr.com/photos/61091961@N06/14952655186/" title="Small badge render" rel="lightbox"><img src="http://farm6.staticflickr.com/5556/14952655186_f49ec911d8_m.jpg" width="240" height="118" alt="Small badge render" title="Small badge render" class="aligncenter"></a><a href="http://www.flickr.com/photos/61091961@N06/14789027928/" title="Big badge render" rel="lightbox"><img src="http://farm6.staticflickr.com/5565/14789027928_9ef47a9fcf_m.jpg" width="240" height="118" alt="Big badge render" title="Big badge render" class="aligncenter"></a>
 
-The boards came back on July 23rd - I went for express shipping - and while we were waiting for them to arrive, Britta and I came up with a slightly different plan, to cut down on costs:<ul><li>Use the lanyard-sized boards</li>
-	<li>One kind of board - no silkscreen text for badge type. This meant we were ordering more of one kind of board, so the quantity discounts were higher, and we only paid one setup fee.</li>
-	<li>Larger area for writing</li>
-	<li>Different LEDs for the different badge types - colour-fade for sponsors, white for staff, blue for Makers</li>
-	<li>Red PCBs for all</li>
-</ul>
+The boards came back on July 23rd - I went for express shipping - and while we were waiting for them to arrive, Britta and I came up with a slightly different plan, to cut down on costs:
+- Use the lanyard-sized boards
+- One kind of board - no silkscreen text for badge type. This meant we were ordering more of one kind of board, so the quantity discounts were higher, and we only paid one setup fee.
+- Larger area for writing
+- Different LEDs for the different badge types - colour-fade for sponsors, white for staff, blue for Makers
+- Red PCBs for all
+
 So when the boards did arrive, we already had a few changes ready to be done.
 
 I quickly populated one when I got the boards, and fired a video up to Ottawa to demonstrate it.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/Cj5B3VNK9mM" frameborder="0" allowfullscreen></iframe>
+{% include video id="Cj5B3VNK9mM" provider="youtube" %}
 
 After looking at the prototype boards, I also decided that the lanyard holes needed to be bigger - about a quarter inch / 6.35mm. I made the changes and sent them off on July 29, once the Detroit Faire was done. They shipped out on August 4, and arrived on August 7. From the 8th to the 14th, I started assembly at home, first putting the battery holders and switches on each board, then starting to add LEDs as numbers came in for sponsors, Makers, etc. 
 
@@ -52,19 +53,18 @@ Badges were ready a few hours before we had to leave for Ottawa. Our departure w
 
 From there, Britta and company handled distribution to each of the Makers, and there was much rejoicing and jubilation.
 
-<h1>The Design</h1>
+<h2>The Design</h2>
 There were initially two designs: the small and the large. The small one was meant to be worn as a button, with a pin backing. It’s 1.95” by 1.45”, so it fits within Seeed Studios’s 5cm x 5cm maximum size. It doesn’t have a writing area on it, but does have two small (3.2mm) holes for a lanyard. The larger prototype was 3.4” by 1.95” and had a writing area, but was otherwise identical to the smaller one.
 
 <a href="http://www.flickr.com/photos/61091961@N06/14789053089/" title="Front side of the small and large prototypes." rel="lightbox"><img src="http://farm4.staticflickr.com/3877/14789053089_c929306da1_m.jpg" width="240" height="180" alt="Front side of the small and large prototypes." title="Front side of the small and large prototypes." class="aligncenter"></a><a href="http://www.flickr.com/photos/61091961@N06/14789133988/" title="Back sides of the prototypes" rel="lightbox"><img src="http://farm6.staticflickr.com/5587/14789133988_d6d8122941_m.jpg" width="240" height="180" alt="Back sides of the prototypes" title="Back sides of the prototypes" class="aligncenter"></a>
 
-Electrically, the badge is incredibly simple - a 3V battery holder (CR2032), a switch, and 3 LEDs in parallel. This is actually much too simple, really - the LEDs should each have a current limiting resistor. This decreases the brightness slightly, but decreases the initial current draw dramatically, depending on the forward voltage of the LEDs in use. It also ensures that the LEDs are of comparable brightness - otherwise one or two will be substantially dimmer than the other(s), because the characteristics of different LEDs can differ wildly. I made the decision, however, to omit these, for two reasons:<ul>
-	<li>I was planning on using LEDs with a forward voltage around 3V so the effects should be diminished, and</li>
-	<li>It would save a TON of time if I didn’t have to solder in 600 resistors as well.</li>
-</ul>
+Electrically, the badge is incredibly simple - a 3V battery holder (CR2032), a switch, and 3 LEDs in parallel. This is actually much too simple, really - the LEDs should each have a current limiting resistor. This decreases the brightness slightly, but decreases the initial current draw dramatically, depending on the forward voltage of the LEDs in use. It also ensures that the LEDs are of comparable brightness - otherwise one or two will be substantially dimmer than the other(s), because the characteristics of different LEDs can differ wildly. I made the decision, however, to omit these, for two reasons:
+- I was planning on using LEDs with a forward voltage around 3V so the effects should be diminished, and
+- It would save a TON of time if I didn’t have to solder in 600 resistors as well.
 
 <a href="http://www.flickr.com/photos/61091961@N06/14789215847/" title="Badge Schematic" rel="lightbox"><img src="http://farm6.staticflickr.com/5595/14789215847_17c68e446d_m.jpg" width="240" height="114" alt="Badge Schematic" title="Badge Schematic" class="aligncenter"></a>
 
-<h1>Construction</h1>
+<h2>Construction</h2>
 The badges were build first by soldering the battery holder to the back. This has nice big tabs and pads on the board, so it was easy, but to ensure that the battery holder stayed in place both during assembly and afterwards, I used some scrapbooking glue dots on an applicator to affix them to the boards. The specific one I used was an Ad Tech Dot Glue Runner, which is purple.
 <a href="http://www.flickr.com/photos/61091961@N06/14975712135/" title="Adhesive" rel="lightbox"><img src="http://farm4.staticflickr.com/3842/14975712135_62486f4304_m.jpg" width="240" height="180" alt="Adhesive" title="Adhesive" class="aligncenter"></a><a href="http://www.flickr.com/photos/61091961@N06/14789040799/" title="Adhesive on the battery holder footprint" rel="lightbox"><img src="http://farm6.staticflickr.com/5582/14789040799_ce2c2242f3_m.jpg" width="240" height="180" alt="Adhesive on the battery holder footprint" title="Adhesive on the battery holder footprint" class="aligncenter"></a><a href="http://www.flickr.com/photos/61091961@N06/14972627261/" title="Soldered battery holder" rel="lightbox"><img src="http://farm4.staticflickr.com/3845/14972627261_22b4c85775_m.jpg" width="240" height="180" alt="Soldered battery holder" title="Soldered battery holder" class="aligncenter"></a>
 
@@ -78,36 +78,33 @@ Once the numbers for how many of which colour started coming in, the LEDs went o
 
 Partner badges got diffused colour-fading LEDs that I had for another project, and Staff badges got white LEDs that I never actually tested, but we only needed 2 of these badges. All told, it took a couple of evenings to do the battery holders and switches, and then 3 more to do all the LEDs.
 
-<h1>Artwork</h1>
+<h2>Artwork</h2>
 Handling the artwork on the board is a bit tricky. I have a technique, though:
-<ol>
-	<li>Prepare the art you need in your favourite drawing program (or whatever's available). I used Paint.NET in this case. I usually try and set the dimensions of the artwork based on rendering it to the PCB at 300 DPI - so if I want the final product to be 2 inches wide, I make it 600 pixels wide. Make sure the artwork is black and white.</li>
-	<li>Save it as a BMP file. Odds are you won’t be able to save it as a monochrome BMP - that's fine.</li>
-	<li>Open the BMP file in Microsoft Paint, and save it as a Monochrome BMP file.</li>
-	<li>Launch EAGLE, and create a library for your artwork.</li>
-	<li>Create a new package for the artwork.</li>
-	<li>Type “run import-bmp.ulp” in the command line in EAGLE and hit enter.</li>
-	<li>Open your BMP file, and select Black as the colour you want to import.</li>
-	<li>Set the scaling mode to DPI, and use whatever DPI value you used in step 1.</li>
-	<li>Set the starting layer to 25 (top silkscreen) to put the artwork on the top silkscreen, or 29 (tStop) to put it on the solder mask.</li>
-	<li>Hit Run.</li>
-	<li>Zoom in and delete the filename text in the lower left hand corner.</li>
-	<li>Save the library and add the package for the artwork to the board layout.</li>
-</ol>
+1. Prepare the art you need in your favourite drawing program (or whatever's available). I used Paint.NET in this case. I usually try and set the dimensions of the artwork based on rendering it to the PCB at 300 DPI - so if I want the final product to be 2 inches wide, I make it 600 pixels wide. Make sure the artwork is black and white.
+2. Save it as a BMP file. Odds are you won’t be able to save it as a monochrome BMP - that's fine.
+3. Open the BMP file in Microsoft Paint, and save it as a Monochrome BMP file.
+4. Launch EAGLE, and create a library for your artwork.
+5. Create a new package for the artwork.
+6. Type “run import-bmp.ulp” in the command line in EAGLE and hit enter.
+7. Open your BMP file, and select Black as the colour you want to import.
+8. Set the scaling mode to DPI, and use whatever DPI value you used in step 1.
+9. Set the starting layer to 25 (top silkscreen) to put the artwork on the top silkscreen, or 29 (tStop) to put it on the solder mask.
+10. Hit Run.
+11. Zoom in and delete the filename text in the lower left hand corner.
+12. Save the library and add the package for the artwork to the board layout.
 
 Note that this is mostly from memory - I reserve the right to come back and revise this to be accurate.
 
-<h1>Design files</h1>
-The design files - done in EAGLE CAD 5.12.0 - have been released on Bitbucket. Use them in good health.
+<h2>Design files</h2>
+The design files - done in EAGLE CAD 5.12.0 - have been released on Github. Use them in good health.
 
-<a href="https://bitbucket.org/SurrealityLabs/mmfobadges2014">https://bitbucket.org/SurrealityLabs/mmfobadges2014</a>
+<a href="https://github.com/SurrealityLabs/mmfobadges2014">https://github.com/SurrealityLabs/mmfobadges2014</a>
 
-<h1>Results</h1>
-The badges went over really well, and it was incredible seeing so many people using something I’d made in one place. If you look at different photos of the Faire and see a blue glow on someone’s face, odds are they were a Maker :)<ul>
-<li><a href="https://www.flickr.com/photos/126811168@N06/with/14951793736">Nuit Blanche's photos</a> - lots of blue glow there</li>
-<li><a href="https://twitter.com/makerfaireott">Maker Faire Ottawa's Twitter stream</a> - even more blue faces</li>
-<li><a href="http://ottawa.ctvnews.ca/video?clipId=418004">CTV Ottawa's coverage</a> - blue badges in motion! Also, the Pinball machine is there for like ten frames.</li>
-</ul>
+<h2>Results</h2>
+The badges went over really well, and it was incredible seeing so many people using something I’d made in one place. If you look at different photos of the Faire and see a blue glow on someone’s face, odds are they were a Maker :)
+- <a href="https://www.flickr.com/photos/126811168@N06/with/14951793736">Nuit Blanche's photos</a> - lots of blue glow there
+- <a href="https://twitter.com/makerfaireott">Maker Faire Ottawa's Twitter stream</a> - even more blue faces
+- <a href="http://ottawa.ctvnews.ca/video?clipId=418004">CTV Ottawa's coverage</a> - blue badges in motion! Also, the Pinball machine is there for like ten frames.
 
 I got a lot of compliments about the badges, and some ideas from people for next year. I’d like to do something a bit more hackable - ideally something with a microcontroller - but I need to figure out what we can actually make it do, and still stay within a budget, both in terms of power and price. Having 200 people with a pair of AAAs hanging from their necks all day might not be so welcome, so staying with a CR2032 is ideal. Next time we're also definitely using pre-made lanyards - they're cheaper and less injury-prone for me.
 
