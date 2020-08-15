@@ -1,7 +1,9 @@
 ---
 id: 2
-title: People
+title: About
 date: 2011-05-30T15:06:15+00:00
+header:
+  image: /assets/images/pcb-header.jpg
 author: admin
 layout: single
 guid: http://surrealitylabs.com/?page_id=2
