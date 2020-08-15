@@ -38,11 +38,10 @@ All of the Imp modules that are available are pretty tiny, but the most common o
 
 {% include gallery id="gallery" %}
 
-The Electric Imp people make and sell a breakout board to let you more easily use the card - SD cards need at least a socket to be useful, after all. The <a href="https://electricimp.com/docs/hardware/resources/reference-designs/april/" target="_blank">April development board</a> contains a power supply, SD card socket, and the serial number chip that the Imp needs to work. It's a good deal at $12.50 US, but has some limitations:<ul>
-	<li>It uses a Mini USB jack for power. Micro USB is preferred these days</li>
-	<li>It has no mounting holes, so it's hard to permanently mount it in a project</li>
-	<li>It's cheap for one, but expensive if you need more than that. Which is a problem, because when working with Imp projects, the code that you develop on their server is tied to the serial number on the breakout board / in whatever system you're developing. Which means you can switch the Imp module between boards and you'll always have the right code - but it also means messing with things on the server if you only have one development board.</li>
-</ul>
+The Electric Imp people make and sell a breakout board to let you more easily use the card - SD cards need at least a socket to be useful, after all. The <a href="https://electricimp.com/docs/hardware/resources/reference-designs/april/" target="_blank">April development board</a> contains a power supply, SD card socket, and the serial number chip that the Imp needs to work. It's a good deal at $12.50 US, but has some limitations:
+- It uses a Mini USB jack for power. Micro USB is preferred these days
+- It has no mounting holes, so it's hard to permanently mount it in a project
+- It's cheap for one, but expensive if you need more than that. Which is a problem, because when working with Imp projects, the code that you develop on their server is tied to the serial number on the breakout board / in whatever system you're developing. Which means you can switch the Imp module between boards and you'll always have the right code - but it also means messing with things on the server if you only have one development board.
 
 Because of those limitations, and because I have a stack of (now-discontinued) SD card sockets from a previous project, I decided to make my own breakout boad.
 
