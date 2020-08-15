@@ -20,27 +20,22 @@ I warn you in advance, some of these are going to be much simpler than others, a
 
 Onward with the first project!
 
-<h1>The Projects</h1>
-<ul>
-	<li><a href="http://surrealitylabs.com/2014/12/passcode-lock-open-hardware-advent-calendar-day-1/" title="Passcode Lock: Open Hardware Advent Calendar Day 1">Day 1: Passcode Lock</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/mini-i2c-lcd-backpack-open-hardware-advent-calendar-day-2/" title="Mini I2C LCD Backpack: Open Hardware Advent Calendar Day 2">Day 2: Mini I2C LCD Backpack</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/usbtinyisp-alternate-pcb-open-hardware-advent-calendar-day-3/" title="USBTinyISP alternate PCB: Open Hardware Advent Calendar Day 3">Day 3: USBTinyISP alternate PCB</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/ringtone-doorbell-open-hardware-advent-calendar-day-4/" title="Ringtone Doorbell: Open Hardware Advent Calendar Day 4">Day 4: Ringtone Doorbell</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/usb-wildcard-open-hardware-advent-calendar-day-5/" title="USB Wildcard: Open Hardware Advent Calendar Day 5">Day 5: USB Wildcard</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/usb-shield-open-hardware-advent-calendar-day-6/" title="USB Shield: Open Hardware Advent Calendar Day 6">Day 6: USB Shield</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/usb-bee-open-hardware-advent-calendar-day-7/" title="USB Bee: Open Hardware Advent Calendar Day 7">Day 7: USB Bee</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/light-paintbrush-open-hardware-advent-calendar-day-8/" title="Light Paintbrush: Open Hardware Advent Calendar Day 8">Day 8: Light Paintbrush</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/black-magic-probe-pcb-open-hardware-advent-calendar-day-9/" title="Black Magic Probe PCB: Open Hardware Advent Calendar Day 9">Day 9: Black Magic Probe PCB</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/digitnet-2-open-hardware-advent-calendar-day-10/" title="DigitNet 2: Open Hardware Advent Calendar Day 10">Day 10: DigitNet 2</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/avr-pigrammer-open-hardware-advent-calendar-day-11/" title="AVR Pigrammer: Open Hardware Advent Calendar Day 11">Day 11: AVR Pigrammer</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/electric-imp-breakout-open-hardware-advent-calendar-day-12/" title="Electric Imp Breakout: Open Hardware Advent Calendar Day 12">Day 12: Electric Imp Breakout Board</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/word-clock-1-0-open-hardware-advent-calendar-day-13/" title="Word Clock 1.0: Open Hardware Advent Calendar Day 13">Day 13: Word Clock 1.0</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/ws2812b-breakout-board-open-hardware-advent-calendar-day-14/" title="WS2812B Breakout Board: Open Hardware Advent Calendar Day 14">Day 14: WS2812B breakout board</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/spherebot-controller-open-hardware-advent-calendar-day-15/" title="Spherebot Controller: Open Hardware Advent Calendar Day 15">Day 15: Spherebot controller board</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/pinbox-open-hardware-advent-calendar-day-16/" title="Pinbox: Open Hardware Advent Calendar Day 16">Day 16: Pinbox</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/mousemover-open-hardware-advent-calendar-day-17/" title="MouseMover: Open Hardware Advent Calendar Day 17">Day 17: Mouse Mover</a></li>
-	<li><a href="http://surrealitylabs.com/2014/12/photobooth-button-open-hardware-advent-calendar-day-18/" title="Photobooth Button: Open Hardware Advent Calendar Day 18">Day 18: Photobooth Button</a></li>
-
-
-</ul>
-
+<h2>The Projects</h2>
+- [Day 1: Passcode Lock]({% post_url 2014-12-01-passcode-lock-open-hardware-advent-calendar-day-1 %})
+- [Day 2: Mini I2C LCD Backpack]({% post_url 2014-12-02-mini-i2c-lcd-backpack-open-hardware-advent-calendar-day-2 %})
+- [Day 3: USBTinyISP alternate PCB]({% post_url 2014-12-03-usbtinyisp-alternate-pcb-open-hardware-advent-calendar-day-3 %})
+- [Day 4: Ringtone Doorbell]({% post_url 2014-12-04-ringtone-doorbell-open-hardware-advent-calendar-day-4 %})
+- [Day 5: USB Wildcard]({% post_url 2014-12-05-usb-wildcard-open-hardware-advent-calendar-day-5 %})
+- [Day 6: USB Shield]({% post_url 2014-12-06-usb-shield-open-hardware-advent-calendar-day-6 %})
+- [Day 7: USB Bee]({% post_url 2014-12-07-usb-bee-open-hardware-advent-calendar-day-7 %})
+- [Day 8: Light Paintbrush]({% post_url 2014-12-08-light-paintbrush-open-hardware-advent-calendar-day-8 %})
+- [Day 9: Black Magic Probe PCB]({% post_url 2014-12-09-black-magic-probe-pcb-open-hardware-advent-calendar-day-9 %})
+- [Day 10: DigitNet 2]({% post_url 2014-12-10-digitnet-2-open-hardware-advent-calendar-day-10 %})
+- [Day 11: AVR Pigrammer]({% post_url 2014-12-11-avr-pigrammer-open-hardware-advent-calendar-day-11%})
+- [Day 12: Electric Imp Breakout Board]({% post_url 2014-12-12-electric-imp-breakout-open-hardware-advent-calendar-day-12 %})
+- [Day 13: Word Clock 1.0]({% post_url 2014-12-14-word-clock-1-0-open-hardware-advent-calendar-day-13%})
+- [Day 14: WS2812B breakout board]({% post_url 2014-12-15-ws2812b-breakout-board-open-hardware-advent-calendar-day-14 %})
+- [Day 15: Spherebot controller board]({% post_url 2014-12-15-spherebot-controller-open-hardware-advent-calendar-day-15 %})
+- [Day 16: Pinbox]({% post_url 2014-12-16-pinbox-open-hardware-advent-calendar-day-16 %})
+- [Day 17: Mouse Mover]({% post_url 2014-12-20-mousemover-open-hardware-advent-calendar-day-17 %})
+- [Day 18: Photobooth Button]({% post_url 2014-12-20-photobooth-button-open-hardware-advent-calendar-day-18 %})
