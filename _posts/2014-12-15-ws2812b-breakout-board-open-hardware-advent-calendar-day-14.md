@@ -36,14 +36,14 @@ Apologies for the delay on this one. I knew that if I missed the schedule one da
 
 This one is another building block for future projects: a breakout board for the WS2812B LED, also known as the NeoPixel.
 
-<h1>Overview</h1>
+<h2>Overview</h2>
 The WS2812B LED is more commonly known as the NeoPixel, a name popularized by Adafruit. It's an RGB LED with all the circuitry needed to control its brightness built right into the LED's package. All you have to do is provide power, connect the data in, and connect the next LED in the chain to the data out. Pretty simple, conceptually.
 
 {% include gallery id="gallery" %}
 
 There are a ton of other breakout boards for this LED available out there - Adafruit, Sparkfun, and a bunch of others all sell them. Ours is different because it copies the form factor of an old Sparkfun breakout for a different, similar module - their <a href="https://www.sparkfun.com/products/retired/10504" target="_blank">WS2801 breakout, to be precise.</a> This one was used on the Project Vending Machine 2.0, and has a lot of nice things going for it. It's fairly small while not being easy to lose, and has four mounting holes. Mounting holes are incredibly important when attaching stuff to other stuff.
 
-<h1>Hardware</h1>
+<h2>Hardware</h2>
 As indicated above, we blatantly ripped off SparkFun's design for the overall board. We changed the connectors, LED and control chip from 4-pin and an IC+LED combo to 3-pin and a WS2812B. The screw holes and text labels are all in the same place still.
 
 {% include gallery id="gallery2" %}
@@ -54,8 +54,8 @@ Schematic and PCB files are <a href="https://github.com/SurrealityLabs/WS2812Bre
 
 If you want to order some of the boards from DirtyPCBs, <a href="http://dirtypcbs.com/view.php?share=2713&accesskey=6736006d60aca24d053561f56424ec3f" target="_blank">using this link gets us a kickback in the form of a discount</a>.
 
-<h1>Future plans</h1>
+<h2>Future plans</h2>
 This is going to factor into a bunch of future projects, because I love blinking LEDs. One of them is even part of the advent calendar (I hope).
 
-<h1>Conclusion</h1>
+<h2>Conclusion</h2>
 A very useful building block for LED-related projects, even if it isn't a particularly exciting one on its own. Also, tested and known to work, which is a bonus.
